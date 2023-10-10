@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Birthday🥳🥳</title>
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <div id="countdown"></div>
+    <div id="content" style="display: none">
+      <img src="my photo.jpg" class="wow bounceInRight" alt="" />
+      <img src="my photo 2.jpg" class="wow bounceInUp" alt="" />
+      <img src="my photo 3jpg.jpg" class="wow bounceInLeft" alt="" />
+      <audio src="birthdaymp3.mp3" autoplay hidden></audio>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@0.9.476/build/spline-viewer.js"
+    ></script>
+    <spline-viewer
+      url="https://prod.spline.design/NBvvMDfUENAPtAvP/scene.splinecode"
+    ></spline-viewer>
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
